@@ -5,3 +5,5 @@ target
 /.classpath
 /.project
 /.springBeans
+run/setJAVA_HOME.bat
+run/setJAVA_HOME.sh

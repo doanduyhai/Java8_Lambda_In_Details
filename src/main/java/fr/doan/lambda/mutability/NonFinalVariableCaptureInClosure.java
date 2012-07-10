@@ -33,9 +33,9 @@ public class NonFinalVariableCaptureInClosure
 	public static void main(String[] args)
 	{
 		NonFinalVariableCaptureInClosure variableCapture = new NonFinalVariableCaptureInClosure();
-		VariableCaptureInClosureSAM sam = variableCapture.createClosure();
+		VariableCaptureInClosureSAM lambda = variableCapture.createClosure();
 
-		MutableObject mutableFromClosureBeforeRefChange = sam.retrieveMutable();
+		MutableObject mutableFromClosureBeforeRefChange = lambda.retrieveMutable();
 		System.out.println("\nmutableFromClosureBeforeRefChange reference : " + mutableFromClosureBeforeRefChange.toString());
 		System.out.println("mutableFromClosureBeforeRefChange content = " + mutableFromClosureBeforeRefChange.getContent());
 
@@ -43,7 +43,7 @@ public class NonFinalVariableCaptureInClosure
 		newMutable.setContent("new_content");
 		variableCapture.mutable = newMutable;
 
-		MutableObject mutableFromClosureAfterRefChange = sam.retrieveMutable();
+		MutableObject mutableFromClosureAfterRefChange = lambda.retrieveMutable();
 
 		System.out.println("\nmutableFromClosureAfterRefChange reference : " + mutableFromClosureAfterRefChange.toString());
 		System.out.println("mutableFromClosureAfterRefChange content = " + mutableFromClosureAfterRefChange.getContent());

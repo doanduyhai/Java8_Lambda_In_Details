@@ -8,6 +8,8 @@ Presentation
  
  This demo is a support for the Lambda In Details serie of articles on my blog : http://doanduyhai.wordpress.com
  
+ !!! DISCLAIMER: all the details exposed in this post were observed related to the JDK 8 demo version as of July 10th 2012. Since the JDK is still in beta, some assertions may not hold in future
+ 
  
  JDK 8 Installation
 ------------

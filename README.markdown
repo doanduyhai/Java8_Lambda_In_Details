@@ -19,4 +19,4 @@ Presentation
 ------------
 
 - Go into run/ and edit setJAVA_HOME.bat (or setJAVA_HOME.sh) and set it to the folder where you install the JDK 8
-
+- Execute each of the script file depending on the scenario your want to test

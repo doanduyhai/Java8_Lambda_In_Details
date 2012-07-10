@@ -13,8 +13,6 @@ public class VariableCaptureInClosure
 	{
 		VariableCaptureInClosureSAM lambda = ()->
 		{	
-			MutableObject mutable = new MutableObject();
-			mutable.setContent("from_closure");
 			return this.mutable;
 		};
 
@@ -36,9 +34,9 @@ public class VariableCaptureInClosure
 	public static void main(String[] args)
 	{
 		VariableCaptureInClosure variableCapture = new VariableCaptureInClosure();
-		VariableCaptureInClosureSAM sam = variableCapture.createClosure();
+		VariableCaptureInClosureSAM lambda = variableCapture.createClosure();
 
-		MutableObject mutableFromClosure = sam.retrieveMutable();
+		MutableObject mutableFromClosure = lambda.retrieveMutable();
 		System.out.println("\nmutableFromClosureBeforeMutation reference : " + mutableFromClosure.toString());
 		System.out.println("mutableFromClosureBeforeMutation content = " + mutableFromClosure.getContent());
 

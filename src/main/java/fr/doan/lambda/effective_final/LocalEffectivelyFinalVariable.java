@@ -7,8 +7,6 @@ import fr.doan.lambda.sam.shadowing.VariableShadowingSAM;
 
 public class LocalEffectivelyFinalVariable
 {
-	// private String text = "default";
-
 	public VariableShadowingSAM retrieveVariableShadowingSAM()
 	{
 		List<String> textList = new ArrayList<String>();
@@ -17,11 +15,11 @@ public class LocalEffectivelyFinalVariable
 		{
 			return textList.get(0);
 		};
-//		textList = new ArrayList<String>();
-//		textList.add("changed_default");
+		textList = new ArrayList<String>();
+		textList.add("new_instance");
 		
-		textList.clear();
-		textList.add("changed_default");
+//		textList.clear();
+//		textList.add("changed_default");
 		return sam;
 	}
 

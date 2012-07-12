@@ -8,8 +8,7 @@ public class ScopingOfThis
 	final public MutableObject mutable = new MutableObject();
 
 	public VariableCaptureInClosureSAM createClosure()
-	{
-
+	{		
 		VariableCaptureInClosureSAM lambda = ()->
 		{	
 			MutableObject mutable = new MutableObject();

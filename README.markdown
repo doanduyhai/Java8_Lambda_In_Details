@@ -26,7 +26,10 @@ Presentation
  Below is the demo scenarios and their corresponding executable:
  
  [Closure and Mutability](http://doanduyhai.wordpress.com/2012/07/11/java-8-lambda-in-details-part-i-closure-and-mutability/): VariableCaptureInClosure & NonFinalVariableCaptureInClosure
+ 
  [Scoping of "this" and "effectively final" variable semantic](http://doanduyhai.wordpress.com/2012/07/12/java-8-lambda-in-details-part-ii-scoping-of-this-and-effectively-final-variable-semantic/): ScopingOfThis & LocalEffectivelyFinalVariable
+ 
  [Method and constructor referencing](http://doanduyhai.wordpress.com/2012/07/14/java-8-lambda-in-details-part-iii-method-and-constructor-referencing/): MethodReference & ConstructorReference
+ 
  [Multiple inheritance resolution for defender methods](http://doanduyhai.wordpress.com/2012/07/15/java-8-lambda-in-details-part-iv-multiple-inheritance-resolution-for-defender-methods/): SameSuperDefenderMethod, MostSpecificDefender, ConflictingDefenders, PriorityToHierarchy, RemovedDefender, ResolvedDefenderConflictsAtInterface & ResolvedDefenderConflictsAtClass
  

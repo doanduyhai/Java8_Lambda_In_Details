@@ -6,4 +6,5 @@ public abstract class AbstractClass
 	{
 		return "from_hierarchy" + input;
 	}
+
 }

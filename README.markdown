@@ -33,3 +33,5 @@ Presentation
  
  [Multiple inheritance resolution for defender methods](http://doanduyhai.wordpress.com/2012/07/15/java-8-lambda-in-details-part-iv-multiple-inheritance-resolution-for-defender-methods/): SameSuperDefenderMethod, MostSpecificDefender, ConflictingDefenders, PriorityToHierarchy, RemovedDefender, ResolvedDefenderConflictsAtInterface & ResolvedDefenderConflictsAtClass
  
+ [Java 8 Lambda in details part V : Functional interface definition and lambda expression implementation] (http://doanduyhai.wordpress.com/2012/07/17/java-8-lambda-in-details-part-v-functional-interface-definition-and-lambda-expression-implementation/): LambdaInstance
+ 
